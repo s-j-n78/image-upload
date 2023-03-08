@@ -191,3 +191,18 @@ const boxesAnimation = window.anime({
   //direction: 'alternative',
   
 });
+
+
+let animation = anime({
+  targets: '.letter',
+  opacity: 1,
+  translateY: 50, 
+  rotate: {
+    value: 360,
+    duration: 2000,
+    easing: 'easeInExpo'
+  }, 
+  scale: anime.stagger([1, 1], {from: 'center'}), 
+  delay: anime.stagger(100, {start: 100}), 
+  translateX: [-10, 30]
+});                
