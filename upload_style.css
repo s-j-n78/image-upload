@@ -22,7 +22,7 @@ body {
 .upload {
 	
 	position: relative;
-	padding: 10px;
+	padding-left: 30px;
 	/*text-align: center;*/
 }
 
@@ -84,6 +84,7 @@ button {
   overflow: hidden;
   height: 70px;
 }
+
 
 .letter {
   display: inline-block;
