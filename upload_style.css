@@ -12,12 +12,12 @@ body {
 	background-color: ##e3edf7;
 	/*height: 150px;*/
 	display: flex;
-	align-items: center;
+	/*align-items: center;*/
 	justify-content: center;
 	font-family: 'Lato'; sans-serif;
 	background-image: url("sunv4.jpg");
 	color: white;
-	font-size: large;
+	font-weight: bolder;
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 750px;
@@ -60,7 +60,7 @@ button {
 @media(max-width: 830px) {
 	body {
 			background-image: url("sunv7.jpg");
-
+justify-content: start;
 	}
 }
 
